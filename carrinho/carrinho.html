@@ -1,0 +1,79 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProTech Computers</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-header__title">
+            <a class= "main-header__title--blue" href="../pagina inicial/index.html">ProTech</span>
+            <a class= "main-header__title--orange"href="../pagina inicial/index.html">Computers</span>
+        </h1>
+        <div class="container-menu">
+            <nav class="main-header__menu">
+                <ul>
+                    <li><a href="../produto/produto.html">Produtos</a></li>
+                    <li><a href="./carrinho.html"><i class="fa-solid fa-cart-shopping"></i> Carrinho <span class="cart-count">0</span></a></li>
+                    <li><a href="../contato/contato.html">Contato</a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <br>
+            </nav>
+            <br>
+            <form class="search-form">
+                <input type="text" placeholder="Buscar produtos...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="cart">
+            <h2>Carrinho</h2>
+            <div class="cart-item">
+                <img src="../imagens/fone-de-ouvido-1.jpg" alt="Fone de ouvido">
+                <div class="item-details">
+                    <p>Fone de ouvido</p>
+                    <p>R$100,00</p>
+                </div>
+                <div class="item-quantity">
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" value="1">
+                </div>
+                <button class="remove-item">x</button>
+            </div>
+            <div class="cart-total">
+                <p>Total: R$100,00</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+   <div class="footer__container">
+    <section>
+        <h2 class="footer__title">Sobre</h2>
+        <p class="footer__about__text">ldkalkd djakwjdkajlkw adkjakjd dnklajdkja damlkwjdlkaj adjdkajlkdna dkajdkla</p>
+    </section>
+    <address>
+        <h2 class="footer__title">Contato</h2>
+        <ul>
+            <li><i class="fa-solid fa-envelope"></i> Protech.email.com</li>
+            <li><i class="fa-solid fa-phone"></i> (84) 87321-7828</li>
+            <li><i class="fa-brands fa-whatsapp"></i> (84) 87653-9381</li>
+        </ul>
+    </address>
+   </div>
+   <section class="footer__copyright">
+    &copy; Todos os direitos reservados
+   </section>
+</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
